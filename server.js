@@ -26,6 +26,6 @@ app.get("/",function(req,res){
 				res.end("<b>Total matches found : "+filesMatched+"</b>");
 			}
 		});
-	})("\\\\ASHISH");
+	})("/");
 	
 }).listen(8080);
